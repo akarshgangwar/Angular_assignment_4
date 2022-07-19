@@ -11,9 +11,14 @@ evenList:number[]=[];
 
 
 
-  onIntervalfired(currentValue:number)
+  buttonclicked(currentValue:number)
   {
-    
+    if(currentValue%2 ===0)
+    {
+      this.evenList.push(currentValue);
+    }
+    else
+    this.oddList.push(currentValue);
   }
 
   title = 'Assignment_5';
